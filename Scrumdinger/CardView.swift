@@ -2,6 +2,7 @@ import SwiftUI
 
 struct CardView: View {
     let scrum: DailyScrum
+    
     var body: some View {
         VStack(alignment: .leading) {
             Text(scrum.title)
@@ -10,10 +11,10 @@ struct CardView: View {
             Spacer()
             HStack {
                 Label("\(scrum.attendees.count)", systemImage: "person.3")
-                accessibilityLabel("\(scrum.attendees.count) attendees")
+                    .accessibilityLabel("\(scrum.attendees.count) attendees")
                 Spacer()
                 Label("\(scrum.lengthInMinutes)", systemImage: "clock")
-                accessibilityLabel("\(scrum.lengthInMinutes) minute meeting")
+                    .accessibilityLabel("\(scrum.lengthInMinutes) minute meeting")
                     .labelStyle(.trailingIcon)
             }
             .font(.caption)
