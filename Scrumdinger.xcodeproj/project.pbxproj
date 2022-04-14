@@ -21,6 +21,7 @@
 		0AE72FBD280811A6005192D5 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE72FBC280811A6005192D5 /* ThemeView.swift */; };
 		0AE72FBF2808127E005192D5 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE72FBE2808127E005192D5 /* ThemePicker.swift */; };
 		0AE72FC128082D0A005192D5 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE72FC028082D0A005192D5 /* MeetingHeaderView.swift */; };
+		0AE72FC328083007005192D5 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE72FC228083007005192D5 /* ScrumProgressViewStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		0AE72FBC280811A6005192D5 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		0AE72FBE2808127E005192D5 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		0AE72FC028082D0A005192D5 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
+		0AE72FC228083007005192D5 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScrumProgressViewStyle.swift; path = ../../../Complete/Scrumdinger/ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				0AE72FBE2808127E005192D5 /* ThemePicker.swift */,
 				0AE72FBA28080997005192D5 /* DetailEditView.swift */,
 				0AE72FC028082D0A005192D5 /* MeetingHeaderView.swift */,
+				0AE72FC228083007005192D5 /* ScrumProgressViewStyle.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AE72FBF2808127E005192D5 /* ThemePicker.swift in Sources */,
+				0AE72FC328083007005192D5 /* ScrumProgressViewStyle.swift in Sources */,
 				0A9C8A292806DD2900D3EDC9 /* DailyScrum.swift in Sources */,
 				0A9C8A342806ED6B00D3EDC9 /* DetailView.swift in Sources */,
 				0AE72FC128082D0A005192D5 /* MeetingHeaderView.swift in Sources */,
